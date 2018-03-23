@@ -11,9 +11,7 @@ First create a new virtual environment and clone the project.
 
 ```shell
 $ mkproject --python=python3 django-raven-tests
-$ git init
-$ git remote add origin git@github.com:knowmetools/django-raven-tests
-$ git pull origin master
+$ git clone git@github.com:knowmetools/django-raven-tests .
 ```
 
 To run the project, make the necessary migrations and start the server.
